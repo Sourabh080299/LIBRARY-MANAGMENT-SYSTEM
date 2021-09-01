@@ -1,0 +1,37 @@
+.latestbook{
+    width: 63%;
+    height: 74vh;
+    border: 10px solid rgba(121, 119, 60, 0.651);
+}
+.latestbook ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0%;
+}
+.latestbook ul a{
+   margin: 8px;
+   margin-bottom: 0%;
+   box-shadow: 0px 5px 40px black;
+}
+.latestbook ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.latestbook ul a{
+   border-radius: 0px 15px 15px 0px;
+}
+.latestbook ul a li img{
+   border-left: 10px solid rgb(32, 32, 32);
+   border-radius: 0px 15px 15px 0px;
+}
+.latestbook hr{
+   margin-top: 0%;
+   margin-bottom: 5px;
+   padding: 7px;
+   background-color: rgba(121, 119, 60, 0.801);
+   border: 2px solid rgb(74, 75, 52);
+   opacity: 0.7;
+   box-shadow: 5px 15px 20px black;
+}

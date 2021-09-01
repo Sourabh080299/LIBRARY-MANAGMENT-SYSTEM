@@ -1,0 +1,52 @@
+.category{
+    width: 20%;
+    margin-left: 15px;
+    border: 10px solid rgba(121, 119, 60, 0.651);
+    height: 600px;
+    overflow: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.category h1 {
+ background-color:rgba(121, 119, 60, 0.651);
+
+}
+.category ul {
+   list-style-type:none;    
+}
+.category ul a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+   
+}
+.category ul a li:hover{
+    background-color: rgba(93, 117, 66, 0.582);
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+.category ul a li{
+    padding: 8px;
+    margin-right: 25px;
+    background-color: rgba(255, 255, 253, 0.24);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+.category .booklist{
+    background-color: rgba(59, 44, 7, 0.911);
+    width: 99%;
+    border: 5px solid rgb(163, 123, 13);
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    top: 25%;
+    color: white;
+}
+.category .booklist .books{
+    width: 100%;   
+}
+
+.category .booklist .books h2{ 
+   width: 79%;
+   position:fixed;
+   color: rgb(233, 4, 4);
+}

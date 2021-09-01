@@ -1,0 +1,28 @@
+.admin,.user{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+.user img,.admin img{
+    border-radius: 250px;
+    border: 25px dotted rgb(58, 42, 7);  
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+    opacity: 1;
+}
+.button{
+    text-decoration: none;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(51, 48, 4);  
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+    padding: 5px;
+    bottom: -15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px; 
+    font-size: 30px;
+    color: rgb(255, 255, 255);   
+}

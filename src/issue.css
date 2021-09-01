@@ -1,0 +1,53 @@
+.issue{
+    min-height: 90vh;
+}
+table,th,tr,td{
+    border: 10px double rgb(71, 33, 2);
+    border-collapse: collapse;
+}
+table tr button{
+    background-color: rgba(36, 33, 31, 0.918);
+    box-shadow: 5px 5px 20px black ;
+    padding:1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.renue{
+   padding: 15px;
+   display: none;
+   color: rgb(255, 255, 255);
+   width: 50%;
+   height: 30vh;
+   border: 3px solid black;
+   border-radius: 10px;
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   background-color: rgba(68, 36, 9, 0.849);
+   z-index: 1;
+}
+.renue input{
+    margin: 20px;
+    padding: 9px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border: 3px solid rgb(160, 133, 44);
+    border-radius: 8px;
+    background-color: rgb(77, 57, 9);
+    color: rgb(0, 0, 0);
+}
+.renue button{
+    margin: 20px;
+   padding: 9px;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-align: center;
+   border-radius: 8px;
+   background-color: rgba(29, 28, 27, 0.911);
+   color: white;
+   border:1px solid rgb(133, 82, 82);
+}

@@ -1,0 +1,26 @@
+.books{
+    min-height: 90vh;
+}
+table,th,tr,td{
+    border: 10px double rgb(71, 33, 2);
+    border-collapse: collapse;
+}
+.books h2 button,table tr button{
+    background-color: rgba(32, 31, 31, 0.918);
+    box-shadow: 5px 5px 20px black ;
+    padding:1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+    color: aliceblue;
+}
+.books h2 button{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+}
+.books h2 button:hover,table tr button:hover{
+    color: rgb(59, 51, 2);
+    background-color:rgba(121, 119, 60, 0.651);
+    transform: scale(1.1);
+}

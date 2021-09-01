@@ -1,0 +1,27 @@
+.search{
+    border: 10px solid rgba(121, 119, 60, 0.651);
+}
+.search h1 {
+    background-color: rgba(121, 119, 60, 0.651);
+   
+   }
+.search form input{
+    border: 3px solid rgba(104, 56, 2, 0.678);
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    background-color: rgba(78, 55, 13, 0.993);
+    margin: 10px;
+    text-align: center;
+}
+.search form button{
+    border: 3px solid rgb(70, 37, 0);
+    border-radius: 5px;
+    background-color: rgba(110, 77, 14, 0.575);
+    box-shadow: 1px 1px 10px white;
+    padding: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
